@@ -53,8 +53,8 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C11-fU-d6q" userLabel="Weather Condition Image View">
                                         <rect key="frame" x="16" y="129" width="343" height="229"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssc-Cu-XmK" userLabel="City Label">
-                                        <rect key="frame" x="16" y="360" width="269" height="94"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssc-Cu-XmK" userLabel="City Label">
+                                        <rect key="frame" x="16" y="356" width="269" height="94"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="269" id="JU0-xy-RBy"/>
                                             <constraint firstAttribute="height" constant="94" id="bSX-HH-pWl"/>
@@ -91,9 +91,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cityLabel" destination="Ssc-Cu-XmK" id="8PV-i3-tg0"/>
-                        <outlet property="temperatureLabel" destination="AT7-It-Fyf" id="aNl-QI-DaP"/>
-                        <outlet property="weatherIcon" destination="C11-fU-d6q" id="AG2-gZ-vGX"/>
+                        <outlet property="cityLabel" destination="Ssc-Cu-XmK" id="xzf-Lm-w7W"/>
+                        <outlet property="temperatureLabel" destination="AT7-It-Fyf" id="uds-fY-pEw"/>
+                        <outlet property="weatherIcon" destination="C11-fU-d6q" id="5Ul-Bz-YZM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
